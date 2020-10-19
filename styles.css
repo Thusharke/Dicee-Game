@@ -33,9 +33,36 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 3%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+.btnArea{
+  text-align: center;
+  margin-top : 5%;
+}
+.btn-danger{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  display: inline-block;
+  padding: 6px 18px;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #292c31;
+  background-color: #4ECCA3;
+  border-color: #47b691;
+  outline : none;
+}
+.btn-danger:hover{
+  background-color: #41ac88;
 }
